@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"org.elasticsearch.common.blobstore.url"},{"l":"org.elasticsearch.plugin.repository.url"},{"l":"org.elasticsearch.repositories.url"},{"l":"所有程序包","url":"allpackages-index.html"}]

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.elasticsearch.common.blobstore.url","l":"URLBlobContainer"},{"p":"org.elasticsearch.common.blobstore.url","l":"URLBlobStore"},{"p":"org.elasticsearch.repositories.url","l":"URLRepository"},{"p":"org.elasticsearch.plugin.repository.url","l":"URLRepositoryPlugin"},{"l":"所有类","url":"allclasses-index.html"}]

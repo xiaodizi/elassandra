@@ -1,0 +1,5 @@
+org.elasticsearch.join
+org.elasticsearch.join.aggregations
+org.elasticsearch.join.mapper
+org.elasticsearch.join.query
+org.elasticsearch.join.spi

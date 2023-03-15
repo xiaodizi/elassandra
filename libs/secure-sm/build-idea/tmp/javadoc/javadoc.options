@@ -1,0 +1,11 @@
+-Xdoclint:none '-quiet'
+-classpath '/Users/lei.fu/elassandra/libs/secure-sm/build-idea/resources/main'
+-d '/Users/lei.fu/elassandra/libs/secure-sm/build-idea/docs/javadoc'
+-doctitle 'secure-sm 6.8.4.5-SNAPSHOT API'
+-encoding 'UTF8'
+-html5 
+-quiet 
+-windowtitle 'secure-sm 6.8.4.5-SNAPSHOT API'
+'/Users/lei.fu/elassandra/libs/secure-sm/src/main/java/org/elasticsearch/secure_sm/ThreadPermission.java'
+'/Users/lei.fu/elassandra/libs/secure-sm/src/main/java/org/elasticsearch/secure_sm/SecureSM.java'
+'/Users/lei.fu/elassandra/libs/secure-sm/src/main/java/org/elasticsearch/secure_sm/SuppressForbidden.java'

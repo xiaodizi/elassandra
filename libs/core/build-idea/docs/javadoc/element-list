@@ -1,0 +1,7 @@
+org.elasticsearch.bootstrap
+org.elasticsearch.common
+org.elasticsearch.common.collect
+org.elasticsearch.common.concurrent
+org.elasticsearch.common.io
+org.elasticsearch.common.unit
+org.elasticsearch.core.internal.io

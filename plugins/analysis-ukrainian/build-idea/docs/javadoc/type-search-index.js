@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.elasticsearch.plugin.analysis.ukrainian","l":"AnalysisUkrainianPlugin"},{"p":"org.elasticsearch.index.analysis","l":"UkrainianAnalyzerProvider"},{"l":"所有类","url":"allclasses-index.html"}]

@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"org.elasticsearch.index.mapper.size"},{"l":"org.elasticsearch.plugin.mapper"},{"l":"所有程序包","url":"allpackages-index.html"}]

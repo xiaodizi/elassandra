@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"org.elasticsearch.plugins","c":"ExtendedPluginsClassLoader","l":"create(ClassLoader, List<ClassLoader>)","url":"create(java.lang.ClassLoader,java.util.List)"},{"p":"org.elasticsearch.plugins","c":"ExtendedPluginsClassLoader","l":"findClass(String)","url":"findClass(java.lang.String)"}]

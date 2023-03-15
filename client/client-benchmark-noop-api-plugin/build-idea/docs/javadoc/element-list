@@ -1,0 +1,3 @@
+org.elasticsearch.plugin.noop
+org.elasticsearch.plugin.noop.action.bulk
+org.elasticsearch.plugin.noop.action.search

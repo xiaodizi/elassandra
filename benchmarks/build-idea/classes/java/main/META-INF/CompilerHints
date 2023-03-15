@@ -1,0 +1,13 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,org/elasticsearch/benchmark/fs/AvailableIndexFoldersBenchmark.availableIndexFolderNaive
+inline,org/elasticsearch/benchmark/fs/AvailableIndexFoldersBenchmark.availableIndexFolderOptimized
+inline,org/elasticsearch/benchmark/fs/AvailableIndexFoldersBenchmark.setup
+inline,org/elasticsearch/benchmark/routing/allocation/AllocationBenchmark.measureAllocation
+inline,org/elasticsearch/benchmark/routing/allocation/AllocationBenchmark.setUp
+inline,org/elasticsearch/benchmark/time/DateFormatterBenchmark.parseJavaDate
+inline,org/elasticsearch/benchmark/time/DateFormatterBenchmark.parseJodaDate
+inline,org/elasticsearch/benchmark/time/DateFormatterFromBenchmark.benchmarkFrom

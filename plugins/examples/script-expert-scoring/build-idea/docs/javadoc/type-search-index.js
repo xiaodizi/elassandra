@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.elasticsearch.example.expertscript","l":"ExpertScriptPlugin"},{"l":"所有类","url":"allclasses-index.html"}]

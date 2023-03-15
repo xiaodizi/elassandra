@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.elasticsearch.percolator","l":"PercolateQueryBuilder"},{"p":"org.elasticsearch.percolator","l":"PercolatorFieldMapper"},{"p":"org.elasticsearch.percolator","l":"PercolatorPlugin"},{"l":"所有类","url":"allclasses-index.html"}]

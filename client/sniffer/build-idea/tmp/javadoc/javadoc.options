@@ -1,0 +1,14 @@
+-Xdoclint:none '-quiet'
+-classpath '/Users/lei.fu/elassandra/client/sniffer/build-idea/resources/main:/Users/lei.fu/elassandra/client/rest/build-idea/distributions/elasticsearch-rest-client-6.8.4.5-SNAPSHOT.jar:/Users/lei.fu/java/gradle-7.2/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/733db77aa8d9b2d68015189df76ab06304406e50/httpclient-4.5.2.jar:/Users/lei.fu/java/gradle-7.2/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.5/e7501a1b34325abb00d17dde96150604a0658b54/httpcore-4.4.5.jar:/Users/lei.fu/java/gradle-7.2/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/lei.fu/java/gradle-7.2/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar:/Users/lei.fu/java/gradle-7.2/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.11/876ead1db19f0c9e79c9789273a3ef8c6fd6c29b/jackson-core-2.8.11.jar:/Users/lei.fu/java/gradle-7.2/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.1.2/95aa3e6fb520191a0970a73cf09f62948ee614be/httpasyncclient-4.1.2.jar:/Users/lei.fu/java/gradle-7.2/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.4.5/f4be009e7505f6ceddf21e7960c759f413f15056/httpcore-nio-4.4.5.jar'
+-d '/Users/lei.fu/elassandra/client/sniffer/build-idea/docs/javadoc'
+-doctitle 'sniffer 6.8.4.5-SNAPSHOT API'
+-encoding 'UTF8'
+-html5 
+-linkoffline 'https://snapshots.elastic.co/javadoc/com/strapdata/elasticsearch/client/elasticsearch-rest-client/6.8.4.5-SNAPSHOT' '/Users/lei.fu/elassandra/client/rest/build-idea/docs/javadoc/'
+-quiet 
+-windowtitle 'sniffer 6.8.4.5-SNAPSHOT API'
+'/Users/lei.fu/elassandra/client/sniffer/src/main/java/org/elasticsearch/client/sniff/SniffOnFailureListener.java'
+'/Users/lei.fu/elassandra/client/sniffer/src/main/java/org/elasticsearch/client/sniff/ElasticsearchNodesSniffer.java'
+'/Users/lei.fu/elassandra/client/sniffer/src/main/java/org/elasticsearch/client/sniff/Sniffer.java'
+'/Users/lei.fu/elassandra/client/sniffer/src/main/java/org/elasticsearch/client/sniff/SnifferBuilder.java'
+'/Users/lei.fu/elassandra/client/sniffer/src/main/java/org/elasticsearch/client/sniff/NodesSniffer.java'

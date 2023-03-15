@@ -1,0 +1,4 @@
+org.elasticsearch.index.store
+org.elasticsearch.index.store.smbmmapfs
+org.elasticsearch.index.store.smbsimplefs
+org.elasticsearch.plugin.store.smb

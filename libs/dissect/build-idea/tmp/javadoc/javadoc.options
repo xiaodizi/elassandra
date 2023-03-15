@@ -1,0 +1,12 @@
+-Xdoclint:none '-quiet'
+-classpath '/Users/lei.fu/elassandra/libs/dissect/build-idea/resources/main'
+-d '/Users/lei.fu/elassandra/libs/dissect/build-idea/docs/javadoc'
+-doctitle 'dissect 6.8.4.5-SNAPSHOT API'
+-encoding 'UTF8'
+-html5 
+-quiet 
+-windowtitle 'dissect 6.8.4.5-SNAPSHOT API'
+'/Users/lei.fu/elassandra/libs/dissect/src/main/java/org/elasticsearch/dissect/DissectParser.java'
+'/Users/lei.fu/elassandra/libs/dissect/src/main/java/org/elasticsearch/dissect/DissectException.java'
+'/Users/lei.fu/elassandra/libs/dissect/src/main/java/org/elasticsearch/dissect/DissectKey.java'
+'/Users/lei.fu/elassandra/libs/dissect/src/main/java/org/elasticsearch/dissect/DissectMatch.java'

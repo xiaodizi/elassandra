@@ -1,0 +1,6 @@
+org.elasticsearch.client.benchmark
+org.elasticsearch.client.benchmark.metrics
+org.elasticsearch.client.benchmark.ops.bulk
+org.elasticsearch.client.benchmark.ops.search
+org.elasticsearch.client.benchmark.rest
+org.elasticsearch.client.benchmark.transport

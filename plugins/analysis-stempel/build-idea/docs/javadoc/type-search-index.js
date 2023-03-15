@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.elasticsearch.plugin.analysis.stempel","l":"AnalysisStempelPlugin"},{"p":"org.elasticsearch.index.analysis.pl","l":"PolishAnalyzerProvider"},{"p":"org.elasticsearch.index.analysis.pl","l":"PolishStemTokenFilterFactory"},{"l":"所有类","url":"allclasses-index.html"}]

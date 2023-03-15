@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.elasticsearch.example.rescore","l":"ExampleRescoreBuilder"},{"p":"org.elasticsearch.example.rescore","l":"ExampleRescorePlugin"},{"l":"所有类","url":"allclasses-index.html"}]

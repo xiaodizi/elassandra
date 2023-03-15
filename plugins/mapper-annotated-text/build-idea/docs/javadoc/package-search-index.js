@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"org.elasticsearch.index.mapper.annotatedtext"},{"l":"org.elasticsearch.plugin.mapper"},{"l":"org.elasticsearch.search.fetch.subphase.highlight"},{"l":"所有程序包","url":"allpackages-index.html"}]

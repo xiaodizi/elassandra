@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.elasticsearch.repositories.hdfs","l":"HdfsPlugin"},{"p":"org.elasticsearch.repositories.hdfs","l":"HdfsRepository"},{"l":"所有类","url":"allclasses-index.html"}]

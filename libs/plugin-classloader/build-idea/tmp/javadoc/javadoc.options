@@ -1,0 +1,9 @@
+-Xdoclint:none '-quiet'
+-classpath '/Users/lei.fu/elassandra/libs/plugin-classloader/build-idea/resources/main'
+-d '/Users/lei.fu/elassandra/libs/plugin-classloader/build-idea/docs/javadoc'
+-doctitle 'plugin-classloader 6.8.4.5-SNAPSHOT API'
+-encoding 'UTF8'
+-html5 
+-quiet 
+-windowtitle 'plugin-classloader 6.8.4.5-SNAPSHOT API'
+'/Users/lei.fu/elassandra/libs/plugin-classloader/src/main/java/org/elasticsearch/plugins/ExtendedPluginsClassLoader.java'

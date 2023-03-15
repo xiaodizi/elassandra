@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"org.elasticsearch.example.customsettings","l":"ExampleCustomSettingsConfig"},{"p":"org.elasticsearch.example.customsettings","l":"ExampleCustomSettingsPlugin"},{"l":"所有类","url":"allclasses-index.html"}]
