@@ -11,6 +11,10 @@
 Elassandra 这东西，如果要是看过Elasticsearch源码层级结果从新封装的。而且里边有些文档记录，目测都没有修改过。
 本身Elasticsearch的server模块，就是核心服务的代码。在这个项目里也可以看看server文件夹。里边可以看到整合了cassandra。
 
+### 目前在做的事情
+
+在把cassandra 升级到4.1分支的代码。trunk 分支的代码，今天尝试一天，一直失败。所以准备换4.1分支试试。
+
 ### 源码运行JDK的配置
 
 这东西整合了很多东西，我没用最新代码做修改。最新分支的代码，build-tools这个组件一直找不到，后来转换idea也不行，我就换成了v6.8.4.5-rc这个分支，做修改打包，居然顺利通过了。
@@ -36,7 +40,6 @@ gradle.projectsEvaluated {
 tasks.getByName('clean').dependsOn('cassandra-realclean')
 ```
 
-
 #### 关于版本
 
 默认编译通过的 是 Cassandra 3.11.6.1 和 Elasticsearch 6.8.4 。其他版本我在尝试.......
@@ -53,7 +56,6 @@ export CASSANDRA_JAVA_HOME="JDK8的Home目录"
 ```
 
 环境变量只要有这几项就行。
-
 
 #### 加载idea组件
 
