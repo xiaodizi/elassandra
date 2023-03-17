@@ -1,5 +1,0 @@
-org.elasticsearch.search.aggregations
-org.elasticsearch.search.aggregations.matrix
-org.elasticsearch.search.aggregations.matrix.spi
-org.elasticsearch.search.aggregations.matrix.stats
-org.elasticsearch.search.aggregations.support

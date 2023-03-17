@@ -1,3 +1,0 @@
-org.elasticsearch.index.mapper.annotatedtext
-org.elasticsearch.plugin.mapper
-org.elasticsearch.search.fetch.subphase.highlight

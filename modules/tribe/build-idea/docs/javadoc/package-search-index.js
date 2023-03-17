@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"org.elasticsearch.tribe"},{"l":"所有程序包","url":"allpackages-index.html"}]

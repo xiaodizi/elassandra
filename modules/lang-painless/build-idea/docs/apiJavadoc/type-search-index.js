@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.elasticsearch.painless.api","l":"Augmentation"},{"p":"org.elasticsearch.painless.api","l":"Debug"},{"l":"所有类","url":"allclasses-index.html"}]

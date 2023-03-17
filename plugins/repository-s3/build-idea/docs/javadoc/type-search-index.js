@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.elasticsearch.repositories.s3","l":"AmazonS3Reference"},{"p":"org.elasticsearch.repositories.s3","l":"S3RepositoryPlugin"},{"l":"所有类","url":"allclasses-index.html"}]

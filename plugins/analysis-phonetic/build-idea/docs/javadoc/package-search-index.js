@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"org.elasticsearch.index.analysis"},{"l":"org.elasticsearch.index.analysis.phonetic"},{"l":"org.elasticsearch.plugin.analysis"},{"l":"所有程序包","url":"allpackages-index.html"}]

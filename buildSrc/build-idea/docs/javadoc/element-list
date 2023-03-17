@@ -1,8 +1,0 @@
-org.elasticsearch
-org.elasticsearch.gradle
-org.elasticsearch.gradle.http
-org.elasticsearch.gradle.precommit
-org.elasticsearch.gradle.test
-org.elasticsearch.gradle.testclusters
-org.elasticsearch.gradle.testfixtures
-org.elasticsearch.gradle.tool

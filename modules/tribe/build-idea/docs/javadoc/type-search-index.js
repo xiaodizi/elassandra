@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.elasticsearch.tribe","l":"TribeDiscovery"},{"p":"org.elasticsearch.tribe","l":"TribePlugin"},{"p":"org.elasticsearch.tribe","l":"TribeService"},{"l":"所有类","url":"allclasses-index.html"}]

@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.elasticsearch.test.loggerusage","l":"ESLoggerUsageChecker"},{"p":"org.elasticsearch.test.loggerusage","l":"SuppressForbidden"},{"p":"org.elasticsearch.test.loggerusage","l":"ESLoggerUsageChecker.WrongLoggerUsage"},{"l":"所有类","url":"allclasses-index.html"}]

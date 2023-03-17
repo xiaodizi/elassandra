@@ -1,3 +1,0 @@
-[submodule "server/cassandra"]
-	path = server/cassandra
-	url = https://github.com/xiaodizi/cassandra

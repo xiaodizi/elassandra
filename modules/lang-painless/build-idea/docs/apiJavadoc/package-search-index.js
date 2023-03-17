@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"org.elasticsearch.painless.api"},{"l":"所有程序包","url":"allpackages-index.html"}]

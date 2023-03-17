@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"org.elasticsearch.example.expertscript"},{"l":"所有程序包","url":"allpackages-index.html"}]

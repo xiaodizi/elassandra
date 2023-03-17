@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.elasticsearch.script.expression","l":"ExpressionPlugin"},{"p":"org.elasticsearch.script.expression","l":"ExpressionScriptEngine"},{"l":"所有类","url":"allclasses-index.html"}]

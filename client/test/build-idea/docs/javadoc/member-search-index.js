@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"org.elasticsearch.client","c":"RestClientTestCase","l":"assertHeaders(Header[], Header[], Header[], Set<String>)","url":"assertHeaders(org.apache.http.Header[],org.apache.http.Header[],org.apache.http.Header[],java.util.Set)"},{"p":"org.elasticsearch.client","c":"RestClientTestCase","l":"RestClientTestCase()","url":"%3Cinit%3E()"}]

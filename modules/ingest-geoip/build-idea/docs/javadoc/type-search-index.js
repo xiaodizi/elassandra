@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.elasticsearch.ingest.geoip","l":"GeoIpProcessor.Factory"},{"p":"org.elasticsearch.ingest.geoip","l":"GeoIpProcessor"},{"p":"org.elasticsearch.ingest.geoip","l":"IngestGeoIpPlugin"},{"l":"所有类","url":"allclasses-index.html"}]

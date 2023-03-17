@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"org.elasticsearch.example.expertscript","c":"ExpertScriptPlugin","l":"ExpertScriptPlugin()","url":"%3Cinit%3E()"},{"p":"org.elasticsearch.example.expertscript","c":"ExpertScriptPlugin","l":"getScriptEngine(Settings, Collection<ScriptContext<?>>)","url":"getScriptEngine(org.elasticsearch.common.settings.Settings,java.util.Collection)"}]

@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.elasticsearch.repositories.gcs","l":"GoogleCloudStorageClientSettings"},{"p":"org.elasticsearch.repositories.gcs","l":"GoogleCloudStoragePlugin"},{"p":"org.elasticsearch.repositories.gcs","l":"GoogleCloudStorageService"},{"l":"所有类","url":"allclasses-index.html"}]

@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"org.elasticsearch.client"},{"l":"所有程序包","url":"allpackages-index.html"}]

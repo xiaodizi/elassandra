@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"org.elasticsearch.plugin.noop"},{"l":"org.elasticsearch.plugin.noop.action.bulk"},{"l":"org.elasticsearch.plugin.noop.action.search"},{"l":"所有程序包","url":"allpackages-index.html"}]

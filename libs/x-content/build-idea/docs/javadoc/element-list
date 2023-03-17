@@ -1,8 +1,0 @@
-org.elasticsearch.common
-org.elasticsearch.common.xcontent
-org.elasticsearch.common.xcontent.cbor
-org.elasticsearch.common.xcontent.json
-org.elasticsearch.common.xcontent.smile
-org.elasticsearch.common.xcontent.support
-org.elasticsearch.common.xcontent.support.filtering
-org.elasticsearch.common.xcontent.yaml

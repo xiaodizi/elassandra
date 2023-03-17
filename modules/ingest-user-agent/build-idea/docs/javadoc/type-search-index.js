@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"org.elasticsearch.ingest.useragent","l":"UserAgentProcessor.Factory"},{"p":"org.elasticsearch.ingest.useragent","l":"IngestUserAgentPlugin"},{"p":"org.elasticsearch.ingest.useragent","l":"UserAgentProcessor"},{"l":"所有类","url":"allclasses-index.html"}]

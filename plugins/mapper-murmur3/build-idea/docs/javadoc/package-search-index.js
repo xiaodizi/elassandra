@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"org.elasticsearch.index.mapper.murmur3"},{"l":"org.elasticsearch.plugin.mapper"},{"l":"所有程序包","url":"allpackages-index.html"}]
