@@ -1,0 +1,87 @@
+import org.elasticsearch.gradle.Version
+
+String dirName = rootProject.projectDir.name
+rootProject.name = dirName
+
+List projects = [
+  'build-tools',
+  'rest-api-spec',
+  'docs',
+  'client:rest',
+  'client:rest-high-level',
+  'client:sniffer',
+  'client:transport',
+  'client:test',
+  'client:client-benchmark-noop-api-plugin',
+  'client:benchmark',
+  'benchmarks',
+  'distribution:archives:zip',
+  'distribution:archives:tar',
+  'distribution:packages:deb',
+  'distribution:packages:rpm',
+  'distribution:bwc:bugfix',
+  'distribution:bwc:maintenance',
+  'distribution:bwc:minor',
+  'distribution:bwc:staged',
+  'distribution:tools:java-version-checker',
+  'distribution:tools:launchers',
+  'distribution:tools:plugin-cli',
+  'server',
+  'server:cli',
+  'test:framework',
+  'test:fixtures:hdfs-fixture',
+  'test:fixtures:krb5kdc-fixture',
+  'test:logger-usage'
+]
+
+/**
+  * Iterates over sub directories, looking for build.gradle, and adds a project if found
+  * for that dir with the given path prefix. Note that this requires each level
+  * of the dir hierarchy to have a build.gradle. Otherwise we would have to iterate
+  * all files/directories in the source tree to find all projects.
+  */
+void addSubProjects(String path, File dir) {
+  if (dir.isDirectory() == false) return;
+  if (dir.name == 'buildSrc') return;
+  if (new File(dir, 'build.gradle').exists() == false) return;
+  if (findProject(dir) != null) return;
+
+  final String projectName = "${path}:${dir.name}"
+  include projectName
+  if (path.isEmpty() || path.startsWith(':example-plugins')) {
+      project(projectName).projectDir = dir
+    }
+    for (File subdir : dir.listFiles()) {
+      addSubProjects(projectName, subdir)
+    }
+  }
+
+
+// include example plugins first, so adding plugin dirs below won't muck with :example-plugins
+File examplePluginsDir = new File(rootProject.projectDir, 'plugins/examples')
+for (File example : examplePluginsDir.listFiles()) {
+  if (example.isDirectory() == false) continue;
+  if (example.name.startsWith('build') || example.name.startsWith('.')) continue;
+  addSubProjects(':example-plugins', example)
+}
+project(':example-plugins').projectDir = new File(rootProject.projectDir, 'plugins/examples')
+
+addSubProjects('', new File(rootProject.projectDir, 'libs'))
+addSubProjects('', new File(rootProject.projectDir, 'modules'))
+addSubProjects('', new File(rootProject.projectDir, 'plugins'))
+
+List startTasks = gradle.startParameter.taskNames
+
+include projects.toArray(new String[0])
+
+project(':build-tools').projectDir = new File(rootProject.projectDir, 'buildSrc')
+
+// look for extra plugins for elasticsearch
+File extraProjects = new File(rootProject.projectDir.parentFile, "${dirName}-extra")
+if (extraProjects.exists()) {
+  for (File extraProjectDir : extraProjects.listFiles()) {
+    addSubProjects('', extraProjectDir)
+  }
+}
+
+project(":libs:ssl-config").name = 'elasticsearch-ssl-config'
