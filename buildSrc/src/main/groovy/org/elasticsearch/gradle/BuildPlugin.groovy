@@ -67,7 +67,7 @@ import java.util.regex.Pattern
 import java.util.stream.Stream
 
 /**
- * Encapsulates build configuration for elasticsearch projects.
+ * 封装Elasticsearch项目的构建配置。
  */
 class BuildPlugin implements Plugin<Project> {
 

@@ -51,7 +51,7 @@ Properties props = VersionPropertiesLoader.loadBuildSrcVersion(propsFile)
 version = props.getProperty("elasticsearch")
 processResources {
   inputs.file(propsFile)
-  // We need to be explicit with the version because we add snapshot and qualifier to it based on properties
+  // 我们需要明确版本，因为我们根据财产向其添加快照和限定符
   inputs.property("dynamic_elasticsearch_version", props.getProperty("elasticsearch"))
   doLast {
     Writer writer = file("$destinationDir/version.properties").newWriter()
@@ -70,29 +70,29 @@ processResources {
 if (JavaVersion.current() < JavaVersion.VERSION_11) {
   throw new GradleException('At least Java 11 is required to build elasticsearch gradle tools')
 }
-// Gradle 4.10 does not support setting this to 11 yet
+// Gradle 4.10 还不支持将其设置为11
 targetCompatibility = "10"
 sourceCompatibility = "10"
 
-// We have a few classes that need to be compiled for older java versions because these are used to run checks against
-// those
+// 我们有一些类需要为旧的java版本编译，因为这些类用于对
+// 那些
 sourceSets {
   minimumRuntime {
-    // We only want Java here, but the Groovy doesn't configure javadoc correctly if we don't define this as groovy
+    // 我们这里只需要Java，但如果我们不将其定义为Groovy，Groovy就无法正确配置javadoc
     groovy {
       srcDirs = ['src/main/minimumRuntime']
     }
   }
 }
 compileMinimumRuntimeGroovy {
-  // We can't use BuildPlugin here, so read from file
+  // 不能使用 BuildPlugin 在这, 所以从文件读取
   String minimumRuntimeVersion = file('src/main/resources/minimumRuntimeVersion').text.trim()
   targetCompatibility = minimumRuntimeVersion
   sourceCompatibility = minimumRuntimeVersion
 }
 dependencies {
   if (project.ext.has("isEclipse") == false || project.ext.isEclipse == false) {
-      // eclipse is confused if this is set explicitly
+      // 如果显式设置，eclipse会被混淆
     compile sourceSets.minimumRuntime.output
   }
   minimumRuntimeCompile "junit:junit:${props.getProperty('junit')}"
@@ -121,7 +121,7 @@ dependencies {
   compile 'com.netflix.nebula:nebula-publishing-plugin:4.4.4'
   compile 'com.netflix.nebula:gradle-info-plugin:3.0.3'
   compile 'org.eclipse.jgit:org.eclipse.jgit:3.2.0.201312181205-r'
-  compile 'com.perforce:p4java:2012.3.551082' // THIS IS SUPPOSED TO BE OPTIONAL IN THE FUTURE....
+  compile 'com.perforce:p4java:2012.3.551082' // 这在未来应该是可选的。。。。
   compile 'org.apache.rat:apache-rat:0.11'
   compile "org.elasticsearch:jna:4.5.1"
   compile 'com.github.jengelman.gradle.plugins:shadow:2.0.4'
